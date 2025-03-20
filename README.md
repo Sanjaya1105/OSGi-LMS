@@ -12,7 +12,7 @@ The LMS consists of the following four core modules:
 4. **Lecturer Management System** 
 
 ### JAR Files
-All required **JAR files** have been included in the **down folder** for easy execution.
+All required **JAR files** have been included in the **jar-files folder** for easy execution.
 
 ## Advantages of the Plugin Concept
 Using the **plugin-based architecture** provides several benefits:
@@ -21,14 +21,6 @@ Using the **plugin-based architecture** provides several benefits:
 - **Maintainability**: Easier debugging and troubleshooting due to clear separation of concerns.
 - **Reusability**: Plugins can be reused in different projects or extended for future enhancements.
 - **Flexibility**: The system can dynamically load or unload modules as needed.
-
-## Advantages of the OSGi Framework
-The **OSGi framework** provides a robust environment for modular development, offering:
-- **Dynamic Module Loading**: Bundles (plugins) can be installed, started, stopped, updated, or uninstalled at runtime without restarting the entire system.
-- **Strong Encapsulation**: OSGi enforces strict modularity, preventing unwanted dependencies between modules.
-- **Service-Oriented Architecture (SOA)**: Encourages communication between bundles through well-defined services.
-- **Improved Dependency Management**: OSGi automatically resolves dependencies between bundles, reducing conflicts.
-- **Enhanced Performance**: Only the necessary bundles are loaded into memory, optimizing resource usage.
 
 ## How to Run the Project
 1. Ensure you have **Java** and an **OSGi runtime environment** (e.g., Eclipse Equinox or Apache Felix) installed.
